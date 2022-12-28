@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+#circular-packing {
+  position: relative;
+}
+.tooltip {
+  position: absolute;
+}
+#circular-packing svg circle:hover {
+  stroke-width: 5px !important;
+}
